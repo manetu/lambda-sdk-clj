@@ -1,0 +1,5 @@
+{:builds {:lambda  {:target     :esm
+                    :output-dir "target"
+                    :runtime    :custom
+                    :modules    {:lambda {:init-fn verify.core/main}}}}
+ :lein true}
