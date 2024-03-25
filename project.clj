@@ -1,4 +1,4 @@
-(defproject io.github.manetu/lambda-sdk  "0.0.2-SNAPSHOT"
+(defproject io.github.manetu/lambda-sdk  "0.0.2"
   :description "An SDK for developing Lambda functions for the Manetu Platform in ClojureScript"
   :url "https://github.com/manetu/lambda-sdk-clj"
   :license {:name "Apache License 2.0"
