@@ -1,5 +1,7 @@
 # lambda-sdk-clj
 
+[![Clojars Project](https://img.shields.io/clojars/v/io.github.manetu/lambda-sdk.svg)](https://clojars.org/io.github.manetu/lambda-sdk)
+
 This repository hosts an SDK for developing Lambda functions for the Manetu Platform in the [ClojureScript](https://clojurescript.org/) programming language.
 
 ## Prerequisites
@@ -43,7 +45,7 @@ cd my-lambda
                  [org.clojure/clojurescript "1.11.132"
                   :exclusions [com.google.javascript/closure-compiler-unshaded
                                org.clojure/google-closure-library]]
-                 [io.github.manetu/lambda-sdk "0.0.1-SNAPSHOT"]
+                 [io.github.manetu/lambda-sdk "0.0.2"]
                  [thheller/shadow-cljs "2.27.1"]]
   :source-paths ["src"])
 ```
