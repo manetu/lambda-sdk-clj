@@ -31,7 +31,7 @@ cd my-lambda
 ``` yaml
 {:builds {:lambda  {:target     :esm
                     :output-dir "target"
-                    :runtime    :custom
+                    :devtools   {:enabled false}
                     :modules    {:lambda {:init-fn hellocljs.core/main}}}}
  :lein true}
 ```
